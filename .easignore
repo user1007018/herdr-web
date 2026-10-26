@@ -1,0 +1,35 @@
+# Match the repository's normal upload exclusions.
+node_modules/
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.kotlin/
+**/android/.cxx/
+**/android/build/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+*.pem
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+/ios
+/android
+/artifacts/
+/.expect/
+/*.log
+
+# Local assistant settings are not build inputs.
+/.agents/
+/.codex/
+/.aws/

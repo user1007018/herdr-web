@@ -1,0 +1,30 @@
+{
+  "cli": {
+    "version": ">= 25.3.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "environment": "development",
+      "node": "24.18.0",
+      "pnpm": "11.28.8"
+    },
+    "preview": {
+      "distribution": "internal",
+      "environment": "preview",
+      "node": "24.18.0",
+      "pnpm": "11.28.8"
+    },
+    "production": {
+      "environment": "production",
+      "autoIncrement": true,
+      "node": "24.18.0",
+      "pnpm": "11.28.8"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
